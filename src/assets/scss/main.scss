@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family-base: "Work Sans", serif ;
+
+
+@import "./abstracts/_variables.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+
+.navbar {
+  background-color: $navbar-light-color;
+  padding: 30px 40px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.d-block {
+  filter: grayscale(100%);
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
